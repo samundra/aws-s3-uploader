@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-uploader",
-  "version": "v1.0.0-beta",
+  "version": "1.0.0-beta",
   "description": "AWS S3 Upload Helper",
   "main": "src/index.js",
   "scripts": {
