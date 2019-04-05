@@ -8,7 +8,7 @@ For sample code: please refer to `examples/` folder.
 
 ### How to use this Library
 
-- Require the package `yarn add samundra/aws-s3-uploader`
+- Require the package `yarn add aws-s3-uploader`
 - Require the package
 
 ```javascript
@@ -37,7 +37,7 @@ const uploader = new AwsS3Uploader(config);
 
 ```javascript
 const imagePath = path.join(__dirname, 'demo.png');
-const s3UploadPath = 'coingame2019/coin/demo.png';
+const s3UploadPath = '/examples/demo.png';
 const mimeType = 'image/jpeg';
 
 // Create Body to Upload
