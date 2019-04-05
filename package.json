@@ -1,0 +1,20 @@
+{
+  "name": "aws-s3-uploader",
+  "version": "v1.0.0-beta",
+  "description": "AWS S3 Upload Helper",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "image"
+  ],
+  "author": "Appsyth Asia Co. Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.436.0",
+    "debug": "^4.1.1"
+  }
+}
