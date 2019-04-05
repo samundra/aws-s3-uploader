@@ -15,7 +15,7 @@ const config = {
 const uploader = new AwsS3Uploader(config);
 
 const imagePath = path.join(__dirname, 'demo.png');
-const s3UploadPath = 'coingame2019/coin/demo.png';
+const s3UploadPath = 'coin/demo.png';
 const mimeType = 'image/jpeg';
 
 // Create Body to Upload
