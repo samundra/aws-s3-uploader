@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "samundra/aws-s3-uploader": "^v1.0.0-beta"
+  }
 }
