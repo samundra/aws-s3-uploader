@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-uploader",
-  "version": "v1.0.1-beta",
+  "version": "v1.0.3-beta",
   "description": "AWS S3 Upload Helper",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,15 @@
     "s3",
     "image"
   ],
-  "author": "Appsyth Asia Co. Ltd.",
+  "author": "Samundra Shrestha",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samundra/aws-s3-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samundra/aws-s3-uploader/issues"
+  },
+  "homepage": "https://github.com/samundra/aws-s3-uploader#aws-s3-uploader",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.436.0",

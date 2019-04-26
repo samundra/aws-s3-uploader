@@ -8,8 +8,7 @@ For sample code: please refer to `examples/` folder.
 
 ### How to use this Library
 
-- Require the package `yarn add aws-s3-uploader`
-- Require the package
+- Install package `yarn add aws-s3-uploader`
 
 ```javascript
 const AwsS3Uploader = require('aws-s3-uploader');
@@ -21,12 +20,12 @@ const AwsS3Uploader = require('aws-s3-uploader');
 
 // Configurations
 const config = {
-  accessKeyId: '',  // AWS Access Key
+  accessKeyId: '',      // AWS Access Key
   secretAccessKey: '',  // AWS Secret Access Key
-  bucketName: '', // AWS Bucket Name
-  distributionId: '', // AWS Distribution ID
+  bucketName: '',       // AWS Bucket Name
+  distributionId: '',   // AWS Distribution ID
   cacheControl: 'no-cache, no-store, max-age=0, s-maxage=0',  // AWS cache Control
-  acl: 'public-read'  // AWS ACL
+  acl: 'public-read'    // AWS ACL
 }
 
 // Create Instance
@@ -59,6 +58,7 @@ uploadPromise
 ### Questions about this project?
 
 Please feel free to report any bug found. Pull requests, issues, and project recommendations are more than welcome!
+[Create Issue](https://github.com/samundra/aws-s3-uploader/issues)
 
 ### Todo
 
